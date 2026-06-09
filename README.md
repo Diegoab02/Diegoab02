@@ -26,7 +26,7 @@ Construyo aplicaciones web full-stack y me apasiona que las cosas funcionen de v
 
 ## 🚀 Proyectos destacados
 
-### [SIGI-A — Sistema de Gestión de Negocios](https://github.com/WTunic29/SIGI-A)
+### | [SIGI-A](https://github.com/Diegoab02/SIGI-A) | ...
 > Aplicación web full-stack para gestión de negocios colombianos.
 
 - FastAPI + PostgreSQL + Docker
@@ -37,7 +37,7 @@ Construyo aplicaciones web full-stack y me apasiona que las cosas funcionen de v
 
 ---
 
-### [ALGAX — Dashboard de Biomonitoreo](https://github.com/UPCLabs/algax-project)
+### | [ALGAX](https://github.com/Diegoab02/algax-project) | ...
 > Dashboard en tiempo real para sensores conectados a una Raspberry Pi Pico 2.
 
 - React + Vite + Recharts + Lucide-React
