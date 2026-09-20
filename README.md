@@ -26,31 +26,33 @@
 
 ## 🚀 Proyectos Destacados
 
+### 💈 [SIGI-A — Sistema de Gestión de Negocios](https://github.com/Diegoab02/SIGI-A)
+**Plataforma Full-Stack para el sector estética y belleza** — *2024 · Presente*
+
+Plataforma web integral diseñada para centros estéticos (barberías, salones, estudios de tatuajes) en Colombia. Sistema multi-tenant que permite a negocios del sector belleza gestionar toda su operación desde una sola plataforma.
+
+`FastAPI` `PostgreSQL` `SQLAlchemy` `JWT + 2FA` `Docker` `pytest` `Postman` `HTML/CSS/JS`
+
+- **Arquitectura robusta:** 22 modelos SQLAlchemy, 20 esquemas Pydantic, 21 endpoints REST documentados.
+- **Seguridad enterprise:** Autenticación JWT con doble factor (2FA/TOTP), control de acceso por roles.
+- **3 dashboards diferenciados** por rol: clientes (reservas, historial), negocios (citas, inventario, servicios, facturación PDF) y administradores (gestión global de la plataforma).
+- **Gestión integral:** citas en tiempo real, inventario de productos, catálogo de servicios, generación de facturas PDF con ReportLab.
+- **QA completo:** pruebas funcionales con pytest (cobertura backend) y Postman (9 endpoints automatizados), validando flujos críticos.
+- **DevOps:** Docker Compose para entornos dev/prod, flujo de ramas Git estructurado (DESARROLLO → staging → main).
+- **Estado:** Backend ~100 % completo con cobertura de pruebas; frontend ~60 % (vanilla JS responsivo).
+
+---
+
 ### 💰 [Expense Tracker](https://github.com/Diegoab02/expense-tracker-api) · [Frontend](https://github.com/Diegoab02/expense-tracker-front)
 **Aplicación Fullstack de Gestión de Finanzas Personales** — *2026 · En desarrollo*
 
-Aplicación web completa para registro de gastos por categoría, presupuestos mensuales y alertas automáticas al alcanzar el 80 % y 100 % del límite definido.
+Aplicación web completa para registro de gastos por categoría, presupuestos mensuales y alertas automáticas al alcanzar el 80 % y 100 % del límite definido. Próximamente con app móvil iOS nativa.
 
 `FastAPI` `PostgreSQL` `SQLAlchemy` `JWT` `Docker` `pytest` · `Next.js` `TypeScript` `Tailwind CSS` `Recharts` `Zustand`
 
 - Backend multi-usuario con autenticación JWT y hashing bcrypt.
 - Dashboard visual con gráficos de torta, barras y barras de progreso dinámicas.
 - Desplegado en Vercel: [expense-tracker-front-ruby.vercel.app](https://expense-tracker-front-ruby.vercel.app)
-
----
-
-### 💈 [SIGI-A — Sistema de Gestión de Negocios](https://github.com/Diegoab02/SIGI-A)
-**Plataforma Full-Stack para el sector estética y belleza** — *2024 · Presente*
-
-Plataforma web integral para centros estéticos (barberías, salones, estudios de tatuajes) en Colombia.
-
-`FastAPI` `PostgreSQL` `SQLAlchemy` `JWT + 2FA` `Docker` `pytest` `Postman`
-
-- 22 modelos SQLAlchemy, 20 esquemas Pydantic, 21 endpoints REST.
-- Autenticación JWT con doble factor (2FA/TOTP).
-- Dashboards por rol (clientes, negocios, administradores).
-- Gestión de citas, inventario y servicios en tiempo real.
-- Backend ~100 % completo con cobertura de pruebas; frontend ~60 %.
 
 ---
 
