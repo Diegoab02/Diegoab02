@@ -2,7 +2,7 @@
 
 # ⚡ Diego Alejandro Betancur Herrera
 
-`aka Pc Aux Servidor`
+
 
 ### `Ingeniería de Sistemas · 8.° semestre · Universidad Piloto de Colombia`
 
